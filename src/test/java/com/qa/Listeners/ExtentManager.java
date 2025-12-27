@@ -16,6 +16,8 @@ public class ExtentManager {
 	             spark.config().setReportName("Automation Test Report");
 	       
 	            spark.config().setDocumentTitle("Selenium Test Results");
+	            spark.config().setOfflineMode(true);
+
 	           
 	            extent = new ExtentReports();
 	            extent.attachReporter(spark);
