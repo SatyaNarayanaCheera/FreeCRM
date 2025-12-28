@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest{
 	
 	@Test(priority = 2)
 	public void verifyForgotPasswordLinkTest() {
-		
+		System.out.println("verifyForgotPasswordLinkTest..........");
 		assertTrue(loginpage.forgotPasswordLink(), "Missing Forgot Password Link on Login page");
 	}
 	
