@@ -23,13 +23,13 @@ public class LoginTest extends BaseTest{
 
 	public void verifyLoginPageTitleTest() {
 		String loginPage_title=loginpage.getLoginPageTitle();
-		
+		System.out.println("verifyLoginPageTitleTest..........");
 		Assert.assertEquals(loginPage_title, Utility.loginPage_Title,"Login page Title is not correct");
 	}
 	
 	@Test(priority = 2)
 	public void verifyForgotPasswordLinkTest() {
-
+		
 		assertTrue(loginpage.forgotPasswordLink(), "Missing Forgot Password Link on Login page");
 	}
 	
