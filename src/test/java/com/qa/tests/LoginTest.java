@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest{
 
 	@BeforeMethod
 	public void initPages() {
-		loginpage=new LoginPage();
+		loginpage=new LoginPage();  // am into Branch ORA3
 	}
 	@Test(priority = 1)
 

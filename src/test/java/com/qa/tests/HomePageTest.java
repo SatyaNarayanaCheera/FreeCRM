@@ -12,7 +12,7 @@ import com.qa.framework.config.ConfigReader;
 
 public class HomePageTest extends BaseTest{
 	Homepage homepage;
-	LoginPage loginpage;
+	LoginPage loginpage;  // am into Branch ORA3
 	@BeforeMethod
 	public void initPages() {
 		loginpage=new LoginPage();
