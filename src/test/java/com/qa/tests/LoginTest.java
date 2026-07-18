@@ -12,7 +12,7 @@ import com.qa.baseTest.BaseTest;
 import com.qa.framework.config.ConfigReader;
 
 public class LoginTest extends BaseTest{
-	
+	//updated postgres
 	LoginPage loginpage;
 
 	@BeforeMethod
