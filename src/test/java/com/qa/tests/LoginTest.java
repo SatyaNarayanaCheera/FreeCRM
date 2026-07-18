@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest{
 	public void initPages() {
 		loginpage=new LoginPage();
 	}
-	@Test(priority = 1)
+	@Test(priority = 1) //am adding it from VSCode..
 
 	//From eclipse am adding this in feature_ora2 branch
 	public void verifyLoginPageTitleTest() {
