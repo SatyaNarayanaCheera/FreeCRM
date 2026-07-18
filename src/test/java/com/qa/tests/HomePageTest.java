@@ -15,8 +15,8 @@ public class HomePageTest extends BaseTest{
 	LoginPage loginpage;  // am into Branch ORA3
 	@BeforeMethod
 	public void initPages() {
-		loginpage=new LoginPage();
-		homepage=loginpage.doLogin(ConfigReader.get("username"), ConfigReader.get("password"));
+		loginpage=new LoginPage(); 
+		homepage=loginpage.doLogin(ConfigReader.get("username"), ConfigReader.get("password")); // am adding from VS_code...
 	}
 	
 	@Test(priority = 1)
