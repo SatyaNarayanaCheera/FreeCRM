@@ -11,7 +11,7 @@ import com.qa.baseTest.BaseTest;
 import com.qa.framework.config.ConfigReader;
 
 public class HomePageTest extends BaseTest{
-	Homepage homepage;
+	Homepage homepage; // am updated from VS code.. in feature_Ora3 branch
 	LoginPage loginpage;  // am into Branch ORA3
 	@BeforeMethod
 	public void initPages() {
