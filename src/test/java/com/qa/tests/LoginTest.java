@@ -21,6 +21,7 @@ public class LoginTest extends BaseTest{
 	}
 	@Test(priority = 1)
 
+	//From eclipse am adding this in feature_ora2 branch
 	public void verifyLoginPageTitleTest() {
 		String loginPage_title=loginpage.getLoginPageTitle();
 		Assert.assertEquals(loginPage_title, Utility.loginPage_Title,"Login page Title is not correct");
